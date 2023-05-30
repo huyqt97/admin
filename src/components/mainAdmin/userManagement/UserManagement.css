@@ -1,0 +1,50 @@
+.App{
+    background-color: antiquewhite;
+}
+.userManagement h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.userManagement{
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+    background-color: rgb(200, 201, 201);
+    height: 100vh;
+}
+
+.userManagement table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(200, 201, 201);
+}
+table,tr ,th ,td{
+    border: 1px solid #fff;
+    padding: 10px 0px;
+}
+.userManagement th{
+    border-bottom: 2px solid #fff;
+}
+.userManagement img{
+    height: 200px;
+}
+.userManagement button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.userManagement .btn_lock{
+    background-color: rgb(204, 81, 81);
+}
+.userManagement .btn_lock:hover{
+    background-color: rgb(208, 137, 137);
+}
+.userManagement .btn_open{
+    background-color: green;
+}
+.userManagement .btn_open:hover{
+    background-color: rgb(91, 189, 91);
+}
